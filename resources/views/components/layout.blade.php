@@ -16,12 +16,12 @@
   ```
 -->
 <div class="min-h-full">
-  <nav class="bg-gray-800">
+  <nav class="bg-orange-600">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="flex h-16 items-center justify-between">
         <div class="flex items-center">
           <div class="flex-shrink-0">
-            <img class="h-8 w-8"  src="{{URL::asset('/Images/kakku-logo.png')}}" alt="Kakku">
+            <img class="h-12 w-auto"  src="{{URL::asset('/Images/kakku-logo.png')}}" alt="Kakku">
           </div>
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline space-x-4">
