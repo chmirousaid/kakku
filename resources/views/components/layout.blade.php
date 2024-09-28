@@ -8,6 +8,7 @@
 
   <!-- Boostrap CSS -->
   <link href="{{URL::asset('/styles/bootstrap.min.css')}}" rel="stylesheet" >
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   <title>Document</title>
 </head>
 
@@ -21,7 +22,7 @@
   ```
 -->
   <div class="min-h-full">
-    <nav class="bg-purple-300">
+    <nav class="bg-purple-300 p-2 mt-0 fixed w-full z-10 top-0">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="flex h-16 items-center justify-between">
           <div class="flex items-center">
@@ -41,7 +42,7 @@
               </div>
             </div>
           </div>
-
+<!-- nothifiactions and profile section
           <div class="hidden md:block">
             <div class="ml-4 flex items-center md:ml-6">
               <button type="button"
@@ -56,7 +57,7 @@
               </button>
 
 
-              <!-- Profile dropdown -->
+               Profile dropdown
               <div class="relative ml-3">
                 <div>
                   <button type="button"
@@ -71,6 +72,8 @@
                 </div>
 
               </div>
+
+-->
             </div>
           </div>
           <div class="-mr-2 flex md:hidden">
@@ -109,36 +112,16 @@
             class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Reseptit</a>
 
         </div>
-        <div class="border-t border-gray-700 pb-3 pt-4">
-          <div class="flex items-center px-5">
-            <div class="flex-shrink-0">
-              <img class="h-10 w-10 rounded-full"
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                alt="">
-            </div>
-            <div class="ml-3">
-              <div class="text-base font-medium leading-none text-white">Tom Cook</div>
-              <div class="text-sm font-medium leading-none text-gray-400">tom@example.com</div>
-            </div>
-            <button type="button"
-              class="relative ml-auto flex-shrink-0 rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
-              <span class="absolute -inset-1.5"></span>
-              <span class="sr-only">View notifications</span>
-              <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
-              </svg>
-            </button>
-          </div>
-
-        </div>
+        
       </div>
     </nav>
 
-    <header class="bg-white shadow">
+</div>
+
+<div>
+  <header class="bg-white shadow ">
       <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-        <h1 class="text-3xl font-bold tracking-tight text-gray-900">{{ $heading }}</h1>
+        <h1 class="text-3xl font-bold tracking-tight text-gray-900 mt-20">{{ $heading }}</h1>
       </div>
     </header>
 
@@ -147,7 +130,9 @@
         {{ $slot }}
       </div>
     </main>
-  </div>
+</div>
+    
+
 
 
 

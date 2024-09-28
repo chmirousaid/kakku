@@ -12634,4 +12634,8 @@ fieldset:disabled .btn {
     }
 }
 
+/*added by me */
+.carousel .carousel-item {
+    height: 400px;
+  }
 /*# sourceMappingURL=bootstrap.min.css.map */
