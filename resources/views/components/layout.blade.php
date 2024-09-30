@@ -134,9 +134,16 @@
     
 
 
-
-
-
 </body>
+
+<footer class="bg-body-tertiary text-center">
+  
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 202 Copyright:
+    <a class="text-body" href="https://mdbootstrap.com/">emilias.fi</a>
+  </div>
+  <!-- Copyright -->
+</footer>
 
 </html>

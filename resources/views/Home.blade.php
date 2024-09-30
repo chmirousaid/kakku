@@ -102,27 +102,37 @@
     </div>
     </br><a href="/">see all recipes</a>
   </div>
-</br>
+  </br>
 
 
 
   <!-- Story part -->
   <div>
-  <h1 class="text-2xl font-bold tracking-tight text-gray-400">Story</h1></br>
-  <div class="card mb-3" style="max-width: auto;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="{{URL::asset('/images/cakes/Storypic2.png')}}" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Story</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted"> Contact me ! </small></p>
+    <h1 class="text-2xl font-bold tracking-tight text-gray-400">Story</h1></br>
+    <div class="card mb-3" style="max-width: auto;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="{{URL::asset('/images/cakes/Storypic2.png')}}" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Story</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted"> Contact me ! </small></p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+
+  </div></br></br>
+  <h1 class="text-2xl font-bold tracking-tight text-gray-400">Find by ingredeint</h1></br>
+  <div class="d-flex justify-content-center gap-10">
+
+    <img src="{{URL::asset('/images/cakes/lemon.jpg')}}"  name="imagemenu" class="rounded-circle border-purple-300 border-4  h-28 w-28" alt="...">
+    <img src="{{URL::asset('/images/cakes/choco.jpeg')}}"  name="imagemenu" class="rounded-circle border-purple-300 border-4 h-28 w-28" alt="...">
+    <img src="{{URL::asset('/images/cakes/berries.png')}}" name="imagemenu" class="rounded-circle border-purple-300 border-4 h-28 w-28" alt="...">
+    <img src="{{URL::asset('/images/cakes/caramel.png')}}" name="imagemenu" class="rounded-circle border-purple-300 border-4 h-28 w-28" alt="...">
 
   </div>
 
